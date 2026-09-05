@@ -1,5 +1,4 @@
 # Lab 1 - Step 01: AWS Account Setup, IAM, and MFA
-
 **Student:** William Schoen  
 **Course:** Cloud Computing  
 **Date:** September 5, 2026
