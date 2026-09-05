@@ -6,7 +6,7 @@
 
 ## Objective and outcome
 
-I used my existing AWS account, secured the root user and my IAM user with MFA, and configured an IAM access key for command-line access.
+I created an AWS account, secured the root user and my IAM user with MFA, and configured an IAM access key for command-line access.
 
 ## 1. Root user MFA
 
