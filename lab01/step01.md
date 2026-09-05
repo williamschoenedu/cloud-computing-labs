@@ -28,7 +28,7 @@ The user summary confirms that console access is enabled with MFA.
 
 ## Access key confirmation
 
-An IAM access key was created previously and successfully used for AWS CLI authentication in Step 03. No key values are included in this report.
+An IAM access key was created and successfully used for AWS CLI authentication in Step 03. No key values are included in this report.
 
 ## Reflection
 
