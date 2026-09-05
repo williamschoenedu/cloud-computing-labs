@@ -32,18 +32,6 @@ The repository screenshot shows list_buckets.sh and the commit Add script to lis
 
 ![Script committed and pushed to GitHub](screenshots/step03/github-script.png)
 
-## Script and persistence
-
-The script uses `aws s3 ls` to list existing S3 buckets. The container retains installed tools and AWS configuration when stopped; it can be reopened with `docker start -ai my-ubuntu-step03`. The GitHub token cache is temporary.
-
-[View the course repository](https://github.com/williamschoenedu/cloud-computing-labs)
-
-```bash
-#!/bin/bash
-echo "Listing S3 buckets in your AWS account:"
-aws s3 ls
-```
-
 ## Reflection
 
 AWS credentials and GitHub tokens should never be committed to a repository because they can allow others to access cloud resources or private code. Even a private repository may be shared, made public, or accessed through a compromised account. Deleting a secret from a file does not remove it from Git history. Credentials should therefore be stored outside the repository, and sensitive files should be excluded using .gitignore before they are tracked.
