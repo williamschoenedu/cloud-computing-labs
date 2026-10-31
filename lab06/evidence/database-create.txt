@@ -1,0 +1,3 @@
+Database creation requested.
+Waiting for PostgreSQL; usually several minutes...
+Database endpoint: itmo-444-544-weather-db.c9qwey6conj0.us-east-2.rds.amazonaws.com

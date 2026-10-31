@@ -1,0 +1,21 @@
+Found credentials in shared credentials file: ~/.aws/credentials
+Deleting Auto Scaling Groups and their instances...
+itmo-444-544-weather-asg still deleting after 300s. Check the console.
+Cleanup stopped: ASG still deleting; rerun cleanup shortly.
+Found credentials in shared credentials file: ~/.aws/credentials
+Deleting Auto Scaling Groups and their instances...
+itmo-444-544-advisor-asg still deleting after 300s. Check the console.
+Cleanup stopped: ASG still deleting; rerun cleanup shortly.
+Found credentials in shared credentials file: ~/.aws/credentials
+Deleting Auto Scaling Groups and their instances...
+Deleting load balancer and target groups...
+Deleted load balancer itmo-444-544-weather-alb
+Deleted target group itmo-444-544-weather-tg
+Deleted target group itmo-444-544-advisor-tg
+Deleted ALB security group sg-04d7b56210faa994d
+Deleting launch templates, profiles and roles...
+Deleted launch template itmo-444-544-weather-lt
+Removed weather role and instance profile.
+Deleted launch template itmo-444-544-advisor-lt
+Removed advisor role and instance profile.
+Weather stack removed. Database and Gemini parameter remain.

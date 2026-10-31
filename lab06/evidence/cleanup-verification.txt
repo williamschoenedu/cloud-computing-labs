@@ -1,0 +1,14 @@
+Gemini parameter removed.
+Database instances: 0 remaining
+Database snapshots: 0 remaining
+Retained automated backups: 0 remaining
+DB subnet groups: 0 remaining
+Auto Scaling Groups: 0 remaining
+Load balancers: 0 remaining
+Target groups: 0 remaining
+IAM roles: 0 remaining
+Instance profiles: 0 remaining
+Launch templates: 0 remaining
+Lab06 security groups: 0 remaining
+Secret parameters: 0 remaining
+PASS: All checked Lab06 resources and backups are absent.

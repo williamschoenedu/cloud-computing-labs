@@ -1,0 +1,3 @@
+WEATHER direkt: nicht erreichbar — erwartet
+ADVISOR direkt: nicht erreichbar — erwartet
+PostgreSQL direkt: nicht erreichbar — erwartet

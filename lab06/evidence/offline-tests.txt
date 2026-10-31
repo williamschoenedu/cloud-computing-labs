@@ -1,0 +1,19 @@
+============================= test session starts ==============================
+platform linux -- Python 3.10.12, pytest-9.1.1, pluggy-1.7.0 -- /root/labs/lab06/.venv/bin/python
+cachedir: .pytest_cache
+rootdir: /root/labs/lab06
+configfile: pytest.ini
+testpaths: tests/lab06
+collecting ... collected 11 items / 2 deselected / 9 selected
+
+tests/lab06/test_database.py::test_database_settings PASSED              [ 11%]
+tests/lab06/test_database.py::test_database_network_rule PASSED          [ 22%]
+tests/lab06/test_database.py::test_create_is_idempotent PASSED           [ 33%]
+tests/lab06/test_database.py::test_delete_leaves_no_database_snapshot_or_password PASSED [ 44%]
+tests/lab06/test_weather_stack.py::test_roles_read_only_their_own_secret PASSED [ 55%]
+tests/lab06/test_weather_stack.py::test_alb_exists_before_templates PASSED [ 66%]
+tests/lab06/test_weather_stack.py::test_user_data_below_16_kb[weather] PASSED [ 77%]
+tests/lab06/test_weather_stack.py::test_user_data_below_16_kb[advisor] PASSED [ 88%]
+tests/lab06/test_weather_stack.py::test_stack_creation_is_idempotent PASSED [100%]
+
+======================= 9 passed, 2 deselected in 3.80s ========================

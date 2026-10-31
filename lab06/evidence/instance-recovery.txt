@@ -1,0 +1,49 @@
+============================= test session starts ==============================
+platform linux -- Python 3.10.12, pytest-9.1.1, pluggy-1.7.0 -- /root/labs/lab06/.venv/bin/python
+cachedir: .pytest_cache
+rootdir: /root/labs/lab06
+configfile: pytest.ini
+collecting ... collected 1 item
+
+tests/lab06/test_instance_recovery.py::test_weather_instance_recovery Terminated Weather instance: i-04e95d98c68a61cae
+2.2s | Advisor: 200
+7.3s | Advisor: 502
+22.4s | Advisor: 502
+27.5s | Advisor: 502
+32.6s | Advisor: 502
+37.8s | Advisor: 502
+42.9s | Advisor: 502
+48.0s | Advisor: 502
+53.0s | Advisor: 502
+58.3s | Advisor: 502
+63.3s | Advisor: 502
+68.5s | Advisor: 502
+73.6s | Advisor: 502
+78.7s | Advisor: 502
+83.8s | Advisor: 502
+88.9s | Advisor: 502
+94.0s | Advisor: 502
+99.1s | Advisor: 502
+104.2s | Advisor: 502
+109.3s | Advisor: 502
+114.4s | Advisor: 502
+119.6s | Advisor: 502
+124.8s | Advisor: 502
+130.9s | Advisor: 502
+136.0s | Advisor: 502
+141.1s | Advisor: 502
+146.2s | Advisor: 502
+151.3s | Advisor: 502
+156.4s | Advisor: 502
+161.5s | Advisor: 502
+166.6s | Advisor: 502
+171.8s | Advisor: 502
+176.9s | Advisor: 502
+182.0s | Advisor: 502
+191.1s | Advisor: 200
+196.8s | Advisor: 200
+206.9s | Advisor: 200
+Healthy replacement: ['i-061f4d69571851b23']
+PASSED
+
+======================== 1 passed in 208.00s (0:03:27) =========================

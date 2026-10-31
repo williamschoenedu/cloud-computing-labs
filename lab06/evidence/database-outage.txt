@@ -1,0 +1,13 @@
+============================= test session starts ==============================
+platform linux -- Python 3.10.12, pytest-9.1.1, pluggy-1.7.0 -- /root/labs/lab06/.venv/bin/python
+cachedir: .pytest_cache
+rootdir: /root/labs/lab06
+configfile: pytest.ini
+collecting ... collected 1 item
+
+tests/lab06/test_database_outage.py::test_weather_survives_database_outage During outage: 200 {"zip":"60616","city":"Chicago","state":"IL","latitude":"41.8426","longitude":"-87.6306","forecast":{"name":"This Afternoon","temperature":60,"temperatureUnit":"F","shortForecast":"Scattered Rain Showers","windSpeed":"5 mph","precipitationChance":31,"isDaytime":true},"cache":"unavailable"}
+Database network rule restored.
+After recovery: 200 {"zip":"60616","city":"Chicago","state":"IL","forecast":{"name":"This Afternoon","isDaytime":true,"windSpeed":"5 mph","temperature":60,"shortForecast":"Scattered Rain Showers","temperatureUnit":"F","precipitationChance":31},"latitude":"41.8426","longitude":"-87.6306","cache":"hit"}
+PASSED
+
+============================== 1 passed in 12.42s ==============================

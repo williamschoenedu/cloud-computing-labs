@@ -1,0 +1,5 @@
+English translation of network-isolation.txt. No new test was run.
+
+WEATHER direct: not reachable - expected
+ADVISOR direct: not reachable - expected
+PostgreSQL direct: not reachable - expected

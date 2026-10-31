@@ -1,0 +1,14 @@
+============================= test session starts ==============================
+platform linux -- Python 3.10.12, pytest-9.1.1, pluggy-1.7.0 -- /root/labs/lab06/.venv/bin/python
+cachedir: .pytest_cache
+rootdir: /root/labs/lab06
+configfile: pytest.ini
+collecting ... collected 5 items
+
+tests/lab06/test_application.py::test_weather_cache_and_history PASSED   [ 20%]
+tests/lab06/test_application.py::test_invalid_and_unknown_zip[abc-400] PASSED [ 40%]
+tests/lab06/test_application.py::test_invalid_and_unknown_zip[00000-404] PASSED [ 60%]
+tests/lab06/test_application.py::test_advisor_recommendation PASSED      [ 80%]
+tests/lab06/test_application.py::test_browser_page PASSED                [100%]
+
+============================== 5 passed in 1.42s ===============================
